@@ -63,6 +63,12 @@
 - 설치 확인
   ![image](https://user-images.githubusercontent.com/58096698/209801824-6a3e796d-446b-44cb-9582-56fdc483996b.png)
 
+- flutter 경로 설정(for vscode) - `.zshrc 파일`에 추가 (https://github.com/oae/asdf-flutter#troubleshooting)
+
+  ```zsh
+  export FLUTTER_ROOT="$(asdf where flutter)"
+  ```
+
 - 기본적으로 flutter를 설치하면 dart도 함께 설치됨
   만약 특정 Dart를 설치하여 사용하고 싶다면 다음을 참고.
   https://dev.to/elianmortega/asdf-flutter-version-manager-macos-linux-4og0
